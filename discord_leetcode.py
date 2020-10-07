@@ -152,9 +152,9 @@ async def on_message(message):
 		question_link_sending = questionDifficulty(question_difficulty[3])
 		await message.channel.send(question_link_sending)
 
-	else:
-		error_message = 'Message not found. Please use either one of the commands: ' + '\n' + '!problem easy, !problem medium, !problem hard'
-		#await message.channel.send(error_message)
+	
+	error_message = 'Message not found. Please use either one of the commands: ' + '\n' + '!problem easy, !problem medium, !problem hard'
+	#await message.channel.send(error_message)
 
 
 
